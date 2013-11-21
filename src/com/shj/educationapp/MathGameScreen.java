@@ -176,7 +176,7 @@ public class MathGameScreen
         int numQues = mg.getNumQuestAsked();
         int numMis = mg.getNumMistakes();
 
-        SendGrid sendgrid = new SendGrid("scw007", "HackDuke1");
+        SendGrid sendgrid = new SendGrid("username", "password");
 
         sendgrid.addTo("steven.whitehead007@gmail.com");
         sendgrid.addToName("Steven");
