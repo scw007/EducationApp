@@ -6,7 +6,11 @@ EducationApp
  Due to the 24 hour limit to the hackathon there's obviously some things we never got done...
  
  -You can't enter a parent email anywhere.
+ 
  -Right now you'll probably crash when you complete a track. The reason is that I took out my SendGrid login. Theres a limit to the emails for my free account, so you'll have to put your own in before you can send emails.
+ 
  -It'll probably crash if you aren't connected to the internet when you complete a track. Try moving all the sendgrid stuff into the try statement, I never got around to due to the 24 hr thing.
+ 
  -Doesn't play nice in landscape.
+ 
  -Won't let you adjust media volume while in the app when tested on my phone.
